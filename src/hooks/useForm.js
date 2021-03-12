@@ -1,5 +1,5 @@
 
-import useLocalStorage from 'functions/useLocalStorage';
+import useLocalStorage from 'hooks/useLocalStorage';
 
 const useForm = ( initialValues ) => {
   const [ values, setValues ] = useLocalStorage('form', initialValues);
